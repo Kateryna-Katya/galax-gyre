@@ -691,7 +691,7 @@ body {
 
 .pages h1 {
     font-family: var(--font-heading);
-    font-size: 3.5rem;
+    font-size: 1.9rem;
     margin-bottom: 40px;
     color: var(--color-accent);
 }
