@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galax Gyre — Карьерный апгрейд и инновации</title>
-<link rel="icon"
-  href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path fill='%23BEF264' d='M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm0 24c-5.523 0-10-4.477-10-10S10.477 6 16 6s10 4.477 10 10-4.477 10-10 10zm0-16c-3.314 0-6 2.686-6 6s2.686 6 6 6 6-2.686 6-6-2.686-6-6-6z'/><path fill='%2300F2FF' d='M16 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8z'/></svg>"
-  type="image/svg+xml">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><path fill='%23BEF264' d='M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm0 24c-5.523 0-10-4.477-10-10S10.477 6 16 6s10 4.477 10 10-4.477 10-10 10zm0-16c-3.314 0-6 2.686-6 6s2.686 6 6 6 6-2.686 6-6-2.686-6-6-6z'/><path fill='%2300F2FF' d='M16 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8z'/></svg>"
+    type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,20 +15,25 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
   <body>
+    <load
+      src="./partials/header.html"
+/>
 
-    <load src="./partials/header.html" />
-
-    <main class="main">
-      <!-- Loads the specified .html file -->
-      <load src="./partials/main.html" />
+    <main>
+      <div class="container">
+        <h1 class="main-title">
+          <span class="main-title-gradient">Welcome</span> to page 2
+        </h1>
+      </div>
     </main>
 
     <load src="./partials/footer.html" />
 <div id="cookiePopup" class="cookie-popup">
-  <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.html">Cookie политике</a>.
+  <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.html">Cookie
+      политике</a>.
   </p>
   <button id="cookieAccept" class="btn btn--primary btn--sm">Принять</button>
 </div>
@@ -37,6 +42,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="https://unpkg.com/split-type"></script>
 <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
-    <script type="module" src="./main.js"></script>
-  </body>
+<script type="module" src="./main.js"></script>
+</body>
+
 </html>
